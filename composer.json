@@ -1,5 +1,5 @@
 {
-    "name": "laminas/laminas-barcode",
+    "name": "spryker/laminas-barcode",
     "description": "Programmatically create and render barcodes as images or in PDFs",
     "license": "BSD-3-Clause",
     "keywords": [
@@ -26,9 +26,9 @@
     },
     "require": {
         "php": "~8.2.0 || ~8.3.0 || ~8.4.0 || ~8.5.0",
-        "laminas/laminas-servicemanager": "^3.22",
+        "laminas/laminas-servicemanager": "^3.22 || ^4.1",
         "laminas/laminas-stdlib": "^3.6.0",
-        "laminas/laminas-validator": "^2.15.1"
+        "laminas/laminas-validator": "^2.15.1 || ^3.0"
     },
     "require-dev": {
         "laminas/laminas-coding-standard": "~2.5.0",
@@ -56,5 +56,8 @@
     },
     "conflict": {
         "zendframework/zend-barcode": "*"
+    },
+    "replace": {
+        "laminas/laminas-barcode": "self.version"
     }
 }

@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
+## 2.17.0 - TBD
+
+### Added
+
+- Nothing.
+
+### Changed
+
+- The package is published as `spryker/laminas-barcode` and replaces `laminas/laminas-barcode`.
+- `laminas/laminas-servicemanager` 4 and `laminas/laminas-validator` 3 are supported, so the package installs together with `psr/container` 2. Version 3 of laminas-servicemanager and version 2 of laminas-validator stay supported.
+
+### Deprecated
+
+- Nothing.
+
+### Removed
+
+- Nothing.
+
+### Fixed
+
+- Nothing.
+
 ## 2.16.0 - 2026-02-13
 
 ### Added
