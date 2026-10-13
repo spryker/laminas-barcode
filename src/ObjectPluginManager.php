@@ -147,8 +147,8 @@ class ObjectPluginManager extends AbstractPluginManager
      */
     public function __construct($configInstanceOrParentLocator = null, array $config = [])
     {
-        $this->aliases         = $this->aliases + self::ALIASES;
-        $this->factories       = $this->factories + self::FACTORIES;
+        $this->aliases        += self::ALIASES;
+        $this->factories      += self::FACTORIES;
         $this->sharedByDefault = false;
 
         parent::__construct($configInstanceOrParentLocator, $config);
