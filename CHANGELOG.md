@@ -2,7 +2,7 @@
 
 All notable changes to this project will be documented in this file, in reverse chronological order by release.
 
-## 2.12.0 - TBD
+## 2.12.1 - TBD
 
 ### Added
 
@@ -23,6 +23,25 @@ All notable changes to this project will be documented in this file, in reverse 
 ### Fixed
 
 - Nothing.
+
+## 2.12.0 - 2022-11-15
+
+
+-----
+
+### Release Notes for [2.12.0](https://github.com/laminas/laminas-barcode/milestone/10)
+
+Feature release (minor)
+
+### 2.12.0
+
+- Total issues resolved: **0**
+- Total pull requests resolved: **1**
+- Total contributors: **1**
+
+#### Enhancement
+
+ - [20: Feature: Support PHP 8.2](https://github.com/laminas/laminas-barcode/pull/20) thanks to @ghostwriter
 
 ## 2.11.0 - 2022-01-04
 
